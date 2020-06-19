@@ -16,6 +16,7 @@
 		18C43C2A249C6A150054830F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C43C29249C6A150054830F /* main.m */; };
 		18C43C34249C6A150054830F /* aaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C43C33249C6A150054830F /* aaTests.m */; };
 		18C43C3F249C6A150054830F /* aaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C43C3E249C6A150054830F /* aaUITests.m */; };
+		18C43C51249C7C800054830F /* c6.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C43C50249C7C800054830F /* c6.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		18C43C3A249C6A150054830F /* aaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C43C3E249C6A150054830F /* aaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aaUITests.m; sourceTree = "<group>"; };
 		18C43C40249C6A150054830F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C43C4F249C7C800054830F /* c6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c6.h; sourceTree = "<group>"; };
+		18C43C50249C7C800054830F /* c6.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = c6.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 			children = (
 				18C43C17249C6A140054830F /* AppDelegate.h */,
 				18C43C18249C6A140054830F /* AppDelegate.m */,
+				18C43C4F249C7C800054830F /* c6.h */,
+				18C43C50249C7C800054830F /* c6.m */,
 				18C43C1A249C6A140054830F /* SceneDelegate.h */,
 				18C43C1B249C6A140054830F /* SceneDelegate.m */,
 				18C43C1D249C6A140054830F /* ViewController.h */,
@@ -270,6 +275,7 @@
 				18C43C1F249C6A140054830F /* ViewController.m in Sources */,
 				18C43C19249C6A140054830F /* AppDelegate.m in Sources */,
 				18C43C2A249C6A150054830F /* main.m in Sources */,
+				18C43C51249C7C800054830F /* c6.m in Sources */,
 				18C43C1C249C6A140054830F /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
